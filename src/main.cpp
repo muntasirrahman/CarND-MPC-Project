@@ -101,7 +101,7 @@ int main() {
           vector<double> waypoints_x;
           vector<double> waypoints_y;
 
-          for (int i = 0; i < ptsx.size(); i++) {
+          for (unsigned int i = 0; i < ptsx.size(); i++) {
             double dx = ptsx[i] - px;
             double dy = ptsy[i] - py;
             waypoints_x.push_back(dx * cos(-psi) - dy * sin(-psi));
@@ -139,7 +139,7 @@ int main() {
           //.. add (x,y) points to list here, points are in reference to the vehicle's coordinate system
           // the points in the simulator are connected by a Green line
 
-          for (int i = 2; i < vars.size(); i++) {
+          for (unsigned int i = 2; i < vars.size(); i++) {
             if (i % 2 == 0) {
               mpc_x_vals.push_back(vars[i]);
             } else {
