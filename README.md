@@ -48,13 +48,16 @@ Position in x, y axis
 `y​t+1 ​​= y​t ​​+ v​t​​ ∗ sin(ψ​t​​) ∗ dt`
 
 Orientation
+
 `ψ​t+1 ​​= ψ​t​​ + ​​​​​v​t / L​f ​​​​∗ δ ∗ dt`
 
 
 Velocity 
+
 `v​t+1​​ = v​t ​​+ a​t ​​∗ dt`
 
 Cross Track Error
+
 `cte​t+1​​ = f(x​t​​) − y​t​​ + (v​t​​ ∗ sin(eψ​t​​) ∗ dt)`
 
 Orientation Error
@@ -63,11 +66,14 @@ Orientation Error
 
 where
 `dt` time difference
+
 `δ​t` steering angle
+
 `at` actuator, acceleration
+
 `Lf`  measures the distance between the center of mass of the vehicle and it's front axle.
 
-The cost function is defined by counting all error contributed by particular elements with pre-defined weight. Based on vehicle's current state, a vector of actuator values is computed to make car follow trajectory path with minimum discrepancies (or error).
+The cost function is defined by counting all error contributed by particular elements with pre-defined weight. Based on vehicle's current state, a vector of actuator values is computed to make car follow trajectory path with minimum error.
  
 #### Timestep Length and Elapsed Duration (N & dt)
 
