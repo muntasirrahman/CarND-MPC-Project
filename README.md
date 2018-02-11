@@ -25,7 +25,7 @@ Self-Driving Car Engineer Nanodegree Program
 
 1. Clone this repo.
 2. Make a build directory: `mkdir build && cd build`
-3. Compile: `cmake .. && make`
+3. Compile: `rm -rf * && cmake .. && make`
 4. Run it: `./mpc`.
 
 ## [Rubrics](https://review.udacity.com/#!/rubrics/896/view)
@@ -74,6 +74,8 @@ where
 `Lf`  measures the distance between the center of mass of the vehicle and it's front axle.
 
 The cost function is defined by counting all error contributed by particular elements with pre-defined weight. Based on vehicle's current state, a vector of actuator values is computed to make car follow trajectory path with minimum error.
+
+
  
 #### Timestep Length and Elapsed Duration (N & dt)
 
