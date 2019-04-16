@@ -1,8 +1,9 @@
 # CarND-Controls-MPC
 Self-Driving Car Engineer Nanodegree Program
 
-The vehicle successfully drive a lap around the track. Take a look here:
+
 [![Car simulation](http://img.youtube.com/vi/xnU3B59EsOY/0.jpg)](https://www.youtube.com/watch?v=xnU3B59EsOY)
+
 ---
 
 ## Dependencies
