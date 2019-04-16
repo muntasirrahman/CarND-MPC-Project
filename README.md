@@ -97,7 +97,7 @@ The latency is simulated by thread sleeps for 100ms. This 100 millisecond delay 
 
 ### Simulation
 
-#### The vehicle must successfully drive a lap around the track.
-
+#### The vehicle successfully drive a lap around the track.
+Take a look here:
 [![Car simulation](http://img.youtube.com/vi/xnU3B59EsOY/0.jpg)](https://www.youtube.com/watch?v=xnU3B59EsOY)
 
