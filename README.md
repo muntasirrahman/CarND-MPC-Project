@@ -1,6 +1,8 @@
 # CarND-Controls-MPC
 Self-Driving Car Engineer Nanodegree Program
 
+The vehicle successfully drive a lap around the track. Take a look here:
+[![Car simulation](http://img.youtube.com/vi/xnU3B59EsOY/0.jpg)](https://www.youtube.com/watch?v=xnU3B59EsOY)
 ---
 
 ## Dependencies
@@ -94,10 +96,3 @@ A 3rd order polynomial fitting is applied on waypoint to get trajectory path. Th
 #### Model Predictive Control with Latency
 
 The latency is simulated by thread sleeps for 100ms. This 100 millisecond delay matches timestep interval 0.1, this could be use to simplify the calculation. The computed actuation value is used for the successor state. The Actuation value for current state uses previously value calculated 100ms before, except for the first timestep.
-
-### Simulation
-
-#### The vehicle successfully drive a lap around the track.
-Take a look here:
-[![Car simulation](http://img.youtube.com/vi/xnU3B59EsOY/0.jpg)](https://www.youtube.com/watch?v=xnU3B59EsOY)
-
